@@ -15,11 +15,11 @@ build:
 
 requirements:
   build:
-    - python <3
+    - python >=3.6
     - setuptools
     - pytest-runner
   run:
-    - python <3
+    - python >=3.6
     - peewee >=2.9.2
     - aiomysql >=0.0.9
 
