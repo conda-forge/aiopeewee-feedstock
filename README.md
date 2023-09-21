@@ -1,11 +1,11 @@
-About aiopeewee
-===============
+About aiopeewee-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aiopeewee-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/kszucs/aiopeewee
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aiopeewee-feedstock/blob/main/LICENSE.txt)
 
 Summary: Asyncio interface for Peewee ORM
 
