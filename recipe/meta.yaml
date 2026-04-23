@@ -12,17 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: True  # [py<36]
+  number: 1000
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
-    - python
-    - setuptools
+  host:
+    - python >=3.6
+    - pip
     - pytest-runner
   run:
-    - python
+    - python>=3.6
     - peewee >=2.9.2
     - aiomysql >=0.0.9
 
